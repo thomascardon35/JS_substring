@@ -7,7 +7,7 @@
 
             var textTableBox = tableBox[index].textContent;
 
-            /*var newTextTableBox = textTableBox.substring(0,3);  */
+            /*var newTextTableBox = textTableBox.substring(0,3);   */
             
             tableBox[index].textContent= textTableBox.substring(0,10) + '...';
         }
